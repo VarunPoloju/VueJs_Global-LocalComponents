@@ -1,14 +1,21 @@
 <template>
   <div>
     <header>
-      <slot name="headerSlot"></slot>
+      <slot name="headerSlot">
+        <!-- <h2>Default</h2> -->
+      </slot>
     </header>
     <slot> </slot>
-
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  mounted() {
+    console.log(this.$slots);
+  },
+};
+</script>
 
 <style scoped>
 section header {
