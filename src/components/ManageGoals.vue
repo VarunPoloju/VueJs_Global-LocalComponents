@@ -6,7 +6,7 @@
     <!-- teleport makes where th html added to which part of html in dom -->
     <teleport to="">
       <error-alert v-if="inputIsInvalid">
-        <h2>Input is Invalid</h2>
+        <h2>Input is Inv alid</h2>
         <p>Please enter few chars...</p>
         <button @click="confirmError">Okay</button>
       </error-alert>
