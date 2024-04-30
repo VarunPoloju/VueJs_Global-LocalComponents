@@ -1,9 +1,10 @@
 <template>
   <div>
-    <slot> </slot>
     <header>
       <slot name="headerSlot"></slot>
     </header>
+    <slot> </slot>
+
   </div>
 </template>
 
