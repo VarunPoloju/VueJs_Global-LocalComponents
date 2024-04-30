@@ -10,6 +10,11 @@
 <script></script>
 
 <style scoped>
+section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 div {
   background-color: burlywood;
   margin: 2rem auto;
